@@ -16,8 +16,11 @@ span {
     padding: 5px 10px;
 }
 
-.welcome {
+.flexible-container {
     display: flex;
+}
+
+.welcome {
     padding: 30px;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
@@ -33,7 +36,6 @@ span {
 }
 
 .dream-big {
-    display: flex;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -41,4 +43,42 @@ span {
 
 .dream {
     margin-left: 8%;
+}
+
+.experiences h3 {
+    color: salmon;
+}
+
+.experiences {
+    padding: 35px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+
+}
+
+.fulldev {
+    width: 40%;
+    box-shadow: 0px 10px 50px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    border-left: 5px solid tomato;
+}
+
+.babydev {
+    /* kototuku  jbe left to right */
+    /* upor theke nice kototuku jbe */
+    /* kototuku spread hobe*/
+    /* ls=ast er ta hocche kototuku spread hbe */
+    width: 40%;
+    box-shadow: 0px 10px 50px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    border-left: 5px solid#FF3D8A;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Mochiy Pop One', sans-serif;
 }
