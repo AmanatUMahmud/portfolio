@@ -1,3 +1,28 @@
 body{
     font-family: 'Mochiy Pop One', sans-serif;
+    margin:  0;
+}
+span{
+    color:salmon;
+}
+.btn{
+    color: aliceblue;
+    text-decoration: none;
+    /* font-size:large; */
+    font-weight: 600;
+    background-image: linear-gradient(tomato ,salmon);
+    padding: 5px 10px;
+}
+.welcome{
+    display: flex;
+    padding: 30px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    margin-left: 10%;
+    width: 90%;
 }
