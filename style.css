@@ -1,28 +1,44 @@
-body{
+body {
     font-family: 'Mochiy Pop One', sans-serif;
-    margin:  0;
+    margin: 0;
 }
-span{
-    color:salmon;
+
+span {
+    color: salmon;
 }
-.btn{
+
+.btn {
     color: aliceblue;
     text-decoration: none;
     /* font-size:large; */
     font-weight: 600;
-    background-image: linear-gradient(tomato ,salmon);
+    background-image: linear-gradient(tomato, salmon);
     padding: 5px 10px;
 }
-.welcome{
+
+.welcome {
     display: flex;
     padding: 30px;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.half-width{
+
+.half-width {
     width: 50%;
 }
-.half-width img{
+
+.half-width img {
     margin-left: 10%;
     width: 90%;
+}
+
+.dream-big {
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.dream {
+    margin-left: 8%;
 }
